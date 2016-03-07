@@ -1,2 +1,5 @@
  <h1>Hello, Rails!</h1>
  <%= link_to "My Blog1", controller: 'articles' %>
+<% for i in 0..(ENV['TIMES'] ? ENV['TIMES'].to_i : 2) do %>
+  <p>Hello World #<%= i %>!</p>
+<% end %>
