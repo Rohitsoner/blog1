@@ -8,25 +8,7 @@
   <dd><%= @article.title %></dd>
   <dt><strong><%= model_class.human_attribute_name(:text) %>:</strong></dt>
   <dd><%= @article.text %></dd>
-  <dt><strong><%= model_class.human_attribute_name(:email) %>:</strong></dt>
-  <dd><%= @article.email %></dd>
-  <dt><strong><%= model_class.human_attribute_name(:encrypted_password) %>:</strong></dt>
-  <dd><%= @article.encrypted_password %></dd>
-  <dt><strong><%= model_class.human_attribute_name(:reset_password_token) %>:</strong></dt>
-  <dd><%= @article.reset_password_token %></dd>
-  <dt><strong><%= model_class.human_attribute_name(:reset_password_sent_at) %>:</strong></dt>
-  <dd><%= @article.reset_password_sent_at %></dd>
-  <dt><strong><%= model_class.human_attribute_name(:remember_created_at) %>:</strong></dt>
-  <dd><%= @article.remember_created_at %></dd>
-  <dt><strong><%= model_class.human_attribute_name(:current_sign_in_at) %>:</strong></dt>
-  <dd><%= @article.current_sign_in_at %></dd>
-  <dt><strong><%= model_class.human_attribute_name(:last_sign_in_at) %>:</strong></dt>
-  <dd><%= @article.last_sign_in_at %></dd>
-  <dt><strong><%= model_class.human_attribute_name(:current_sign_in_ip) %>:</strong></dt>
-  <dd><%= @article.current_sign_in_ip %></dd>
-  <dt><strong><%= model_class.human_attribute_name(:last_sign_in_ip) %>:</strong></dt>
-  <dd><%= @article.last_sign_in_ip %></dd>
-</dl>
+  </dl>
 
 <%= link_to t('.back', :default => t("helpers.links.back")),
               articles_path, :class => 'btn btn-default'  %>
